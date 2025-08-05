@@ -6,6 +6,7 @@ public class Example2 {
         System.out.println(juju.roll);
         System.out.println(juju.name);
         System.out.println(juju.marks);
+        juju.greet();
 
     }
 }
@@ -14,6 +15,9 @@ class Students {
     String name;
     float marks;
 
+    void greet(){
+        System.out.println("Hello my name is " + this.name);
+    } /// we can add function over  here
     Students(){
         this.roll=23;
         this.name ="juju";

@@ -8,6 +8,7 @@ public class Main {
 //        System.out.println(box2.h+" "+ box2.l+" "+ box2.w);
        Weight box3 = new Weight();
        Weight box4 = new Weight(2,3,4,8);
+       
 
     }
 }

@@ -9,6 +9,7 @@ public class Weight extends Box { // this is child class
 
 
     }
+//    super()// object class
 
     public Weight(double h, double l, double w, double weight) {
         super(h, l, w);// super keyword call the parent class constructor

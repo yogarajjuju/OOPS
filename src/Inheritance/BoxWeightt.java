@@ -13,6 +13,10 @@ public class BoxWeightt extends Box { // this is child class
         super(other);
         weight= other.weight;
     }
+    BoxWeightt(double side,double weight){
+        super(side);
+        this.weight=weight;
+    }
 
 //    super()// object class
 

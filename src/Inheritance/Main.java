@@ -6,8 +6,8 @@ public class Main {
 //        Box box2 = new Box(box1);
 //        System.out.println(box1.h+" "+ box1.l+" "+ box1.w);
 //        System.out.println(box2.h+" "+ box2.l+" "+ box2.w);
-       BoxWeightt box3 = new BoxWeightt();
-       BoxWeightt box4 = new BoxWeightt(2,3,4,8);
+//       BoxWeightt box3 = new BoxWeightt();
+//       BoxWeightt box4 = new BoxWeightt(2,3,4,8);
         //        System.out.println(box1.w + " " + box1.h);
 
 //        BoxWeight box3 = new BoxWeight();
@@ -26,6 +26,8 @@ public class Main {
         // this is why error
 //        BoxWeight box6 = new Box(2, 3, 4);
 //        System.out.println(box6);
+        BoxPrice box = new BoxPrice(5,8,200);
+
 
 
 

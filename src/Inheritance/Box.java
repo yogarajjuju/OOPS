@@ -25,6 +25,7 @@ public class Box { // this is parent class
         this.w = w;
     }
     Box(Box old){
+
         this.l=old.l;
         this.h=old.h;
         this.w=old.w;

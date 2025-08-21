@@ -9,6 +9,10 @@ public class BoxWeightt extends Box { // this is child class
 
 
     }
+    BoxWeightt(BoxWeightt other){
+        super(other);
+        weight= other.weight;
+    }
 
 //    super()// object class
 

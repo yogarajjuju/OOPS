@@ -9,6 +9,7 @@ public class ObjectPrint {
     // NOTE:  Final keyword is used to prevent overiding
     //        we cannot over ride a method that is declared as final;
     //        It is also called as latebinding
+    // can be also used to prevent inheritance of classes
 
     @Override// this one override the default toString();
     public String toString() {

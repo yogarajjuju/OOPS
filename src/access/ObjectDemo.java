@@ -29,6 +29,7 @@ public class ObjectDemo {
         System.out.println(obj.hashCode());// the hashcode used to identify the unique value of obj
         System.out.println(obj2.hashCode());// the hashcode used to identify the unique value of obj(this has different value of hash code)
         //i.e it is just a random value  to find the uniqueness of the object:
+        System.out.println(obj.getClass());//use the get the class it belongs
     }
 
 //    @Override
@@ -40,5 +41,6 @@ public class ObjectDemo {
 //    protected void finalize() throws Throwable {
 //        super.finalize();
 //    }
+
 }
 

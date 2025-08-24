@@ -1,7 +1,8 @@
 package access;
 
 public class A {
-   private int num;
+//   private int num;
+    int num;
     String name;
     int [] arr;
 

@@ -14,6 +14,13 @@ public class Wildcard<T extends Number> {
     public Wildcard() {
         this.data = new Object[DEFAULT_SIZE];
     }
+
+    public void getList(List<? extends Number>list){
+        //do something
+
+    }
+
+
     public void add(T num){
         if(isFull()){
             resize();

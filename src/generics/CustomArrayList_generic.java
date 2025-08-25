@@ -1,5 +1,5 @@
 package generics;
-
+// https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html#createObjects
 import java.util.Arrays;
 
 public class CustomArrayList_generic<T> {

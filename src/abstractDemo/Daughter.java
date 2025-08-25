@@ -13,7 +13,7 @@ public class Daughter extends Parent{
 
     @Override
     void partner() {
-        System.out.println("I love  Spiderman");
+        System.out.println("I love  Spidermann");
 
 
     }

@@ -9,7 +9,7 @@ public class Main {
 
         //Note: We cannot create objects iof abstract classes
         // Example: Parent mom = new Parent() -> this cannot be created directly we need implement the methods of thet classes buz it cannot run without the body .
-
+// u can use the Abstarct class as reference variable
         Parent.hello();
 
     }

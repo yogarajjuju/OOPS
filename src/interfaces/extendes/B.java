@@ -3,6 +3,6 @@ package interfaces.extendes;
 // to link a interface to other interface we use extends keyword
 
 public interface B{
-    void greet();
+     void greet();
 //    void fun();
 }

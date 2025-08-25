@@ -15,5 +15,6 @@ public class Daughter extends Parent{
     void partner() {
         System.out.println("I love  Spiderman");
 
+
     }
 }

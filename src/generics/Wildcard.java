@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Wildcard<T extends Number> {
 //    the wildcard is used to restrict the datatyoe to use
     // now if we change the datatype it throws the error
+    //Here  T should either be Number or its subclass;
 
     private Object[] data;
     private static int DEFAULT_SIZE = 10;

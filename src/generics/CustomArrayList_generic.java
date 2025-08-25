@@ -9,7 +9,7 @@ public class CustomArrayList_generic<T> {
     private int size =0;// also works as index value
 
     public CustomArrayList_generic() {
-        this.data = new int[DEFAULT_SIZE];
+        this.data = new T[DEFAULT_SIZE];
     }
     public void add(int num){
         if(isFull()){

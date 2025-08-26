@@ -15,10 +15,10 @@ public class Wildcard<T extends Number> {
         this.data = new Object[DEFAULT_SIZE];
     }
 
-    public void getList(List<? extends Number>list){
-        //do something
-
-    }
+//    public void getList(List<? extends Number>list){
+//        //do something
+//
+//    }
 
 
     public void add(T num){

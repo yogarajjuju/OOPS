@@ -14,9 +14,12 @@ public class Main {
            System.out.println("This will always execute ");
        }
     }
-    static int  divide(int a, int b){
+    static int  divide(int a, int b) throws ArithmeticException{ // to throw exception explicitly
         if(b==0){
             throw new ArithmeticException("please do not divide by zero");
+            //NOTE:
+            // the keyword throw is used to throw an exception
+            // The keyword throws is used to declare an exception
         }
         return a/b;
 

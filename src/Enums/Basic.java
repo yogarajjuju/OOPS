@@ -1,7 +1,7 @@
 package Enums;
 
 public class Basic {
-    enum Week{
+    enum Week implements A{
         Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday;
         //These are enum constants
         //public , static and final member
@@ -10,6 +10,11 @@ public class Basic {
 
         Week() {
             System.out.println("Constructor called for "+this);
+        }
+
+        @Override
+        public void hello() {
+            System.out.println("I am usin ginterface in enums");
         }
         // this is not public or protected , only private or default
         //why? we don't want to create new objects
@@ -29,5 +34,7 @@ public class Basic {
 //            System.out.println(day);
 //        }
         System.out.println(week.ordinal());
+        System.out.println(Week.valueOf("Monday"));
+        week.hello();
     }
 }
